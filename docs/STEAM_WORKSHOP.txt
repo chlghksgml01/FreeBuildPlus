@@ -1,0 +1,74 @@
+[h1]FreeBuild Plus[/h1]
+Place buildings freely — snap / support / floating [b]and[/b] collision / overlap — in [b]one[/b] overlay.
+
+This merges the old [b]FreeBuild No Snap / Support[/b] features with the collision / dense-placement research into a single mod.
+
+[h2]What this mod removes / relaxes[/h2]
+[list]
+[*]"Adhere to other building"
+[*]"No supporting buildings nearby"
+[*]The block on placing pieces in mid-air
+[*]Many "building collision detected" / overlap blocks (structures, décor, and most placeables)
+[/list]
+
+[h2]What still may block placement[/h2]
+[list]
+[*]Some terrain-vs-terrain cases (left intentional in testing)
+[*]Rare edge cases after big game updates — re-run the installer if needed
+[/list]
+
+[h2]Important — use this mod alone[/h2]
+Do [b]not[/b] also run the old FreeBuild or FreeBuild No Collision overlays.
+Unsubscribe those Workshop items so their patch files do not conflict with FreeBuild Plus.
+
+[h2]Why do I need INSTALL_OVERLAY.bat?[/h2]
+Steam only downloads the mod into the Mods folder. That is not enough for this mod to work.
+
+[b]INSTALL_OVERLAY.bat[/b] is a one-time install button. It copies 2 small patch files into the game folder so Soulmask can actually use them.
+
+Think of it like this:
+[list]
+[*]Subscribe = download the files
+[*]INSTALL_OVERLAY.bat = install the files so they work
+[/list]
+It does [b]not[/b] change or delete the main game files. It only copies 2 extra patch files. You only need to run it once (or again after a big game update).
+
+[h2]Installation (required)[/h2]
+Subscribing alone is not enough. Please follow every step once.
+[olist]
+[*][b]Subscribe[/b] to this item.
+[*]Start Soulmask, wait for the main menu, then close the game. This lets Steam download the mod files.
+[*]In your Steam Library, right-click [b]Soulmask[/b] and choose [b]Manage[/b] then [b]Browse local files[/b].
+[*]Open the folder [b]WS\Mods\FreeBuildPlus[/b].
+[*]Double-click [b]INSTALL_OVERLAY.bat[/b].
+[*]Wait for [b]Installation complete[/b], then press any key to close the window.
+[*]Start Soulmask, open [b]Mods[/b] in the main menu, select [b]FreeBuild Plus[/b] and press [b]Apply[/b].
+[*]Fully close the game and start it again.
+[/olist]
+
+[h2]How to confirm it works[/h2]
+[list]
+[*]Try placing a foundation or roof piece in mid-air without "Adhere to other building" / "No supporting buildings nearby".
+[*]Try overlapping walls / roofs / décor with grass or nearby pieces — many collision blocks should be gone.
+[/list]
+
+[h2]Troubleshooting[/h2]
+[list]
+[*][b]Access denied when running the file:[/b] right-click [b]INSTALL_OVERLAY.bat[/b] and choose [b]Run as administrator[/b].
+[*][b]Folder or file missing:[/b] make sure the Steam download finished, then start and close the game once and check again.
+[*][b]Stopped working after a game update:[/b] simply run [b]INSTALL_OVERLAY.bat[/b] again.
+[*][b]Nothing changes in game:[/b] confirm the mod is applied in the Mods menu and that you restarted the game afterwards.
+[*][b]Still seeing old FreeBuild behavior only / conflicts:[/b] unsubscribe old FreeBuild / No Collision, run [b]UNINSTALL_OVERLAY.bat[/b] once, then run [b]INSTALL_OVERLAY.bat[/b] again from FreeBuildPlus.
+[*]May conflict with other mods that change building placement.
+[/list]
+
+[h2]How to uninstall[/h2]
+Run [b]UNINSTALL_OVERLAY.bat[/b] from the same folder, then unsubscribe from this item.
+
+[h2]Dedicated servers[/h2]
+Add [code]-mod="3775582493"[/code] to the server launch arguments, and copy both files from the mod's [b]OverlayPaks[/b] folder into the server's [b]WS\Content\Paks[/b] folder.
+
+[b]Mod ID:[/b] 3775582493
+
+[h2]Links[/h2]
+GitHub: https://github.com/chlghksgml01/FreeBuildPlus
