@@ -48,12 +48,6 @@ if errorlevel 1 (
   exit /b 1
 )
 
-echo [OK] FreeBuild Plus installed (_1_P only; old _2_P removed if present).
-echo.
-echo Next steps:
-echo   1. Unsubscribe old FreeBuild / NoCollision Workshop items if still subscribed
-echo   2. Start Soulmask from Steam
-echo   3. Mods -^> FreeBuild Plus -^> Apply (if shown)
-echo   4. Fully restart the game, then test mid-air + overlap placement
+echo [OK] FreeBuild Plus installed.
 echo.
 pause
