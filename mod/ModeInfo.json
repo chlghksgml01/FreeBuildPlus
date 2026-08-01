@@ -1,12 +1,12 @@
 {
 	"ModName": "FreeBuild Unlimited",
 	"ModAuthor": "Aeng",
-	"ModUrl": "",
+	"ModUrl": "https://github.com/chlghksgml01/FreeBuildUnlimited",
 	"ModVersion": "1.0.0",
-	"ModDescription": "[h3]FreeBuild Unlimited[/h3]\r\nSnap / support / floating + collision / overlap in one overlay.\r\n\r\n[b]Why INSTALL_OVERLAY.bat?[/b] Steam only downloads the files. The bat copies the overlay into Content\\Paks. It does not change the main game pak. Run once after subscribe.\r\n\r\nSetup: Subscribe → launch and close once → open WS\\Mods\\FreeBuildUnlimited → run INSTALL_OVERLAY.bat → Mods Apply → restart.\r\n\r\nUse this mod alone — unsubscribe old FreeBuild / FreeBuild No Collision.\r\n\r\nTo remove: run UNINSTALL_OVERLAY.bat and unsubscribe.",
-	"ModChangenotes": "v1.0.0: Merged FreeBuildNoSnapSupport + FreeBuildNoCollision into a single _1_P overlay.",
+	"ModDescription": "[h3]FreeBuild Unlimited[/h3]\r\nSnap/support/floating + collision/overlap in one overlay.\r\n\r\nRun INSTALL_OVERLAY.bat after subscribe. Use alone (unsubscribe old FreeBuild / NoCollision).",
+	"ModChangenotes": "v1.0.0: Initial Hidden release.",
 	"ModeImagePath": "",
-	"ModID": "",
+	"ModID": "3775582493",
 	"PluginName": "FreeBuildUnlimited",
 	"PackageCRC": [],
 	"SupportLinux": "false"
