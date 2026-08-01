@@ -1,11 +1,11 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
-title FreeBuild Unlimited - Uninstall
+title FreeBuild Plus - Uninstall
 set "MODDIR=%~dp0"
 for %%I in ("%MODDIR%..\..\Content\Paks") do set "GAMEPAKS=%%~fI"
 
 echo ============================================
-echo  FreeBuild Unlimited - Uninstaller
+echo  FreeBuild Plus - Uninstaller
 echo ============================================
 echo.
 

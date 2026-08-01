@@ -1,6 +1,8 @@
-# FreeBuild Unlimited — lessons (merged)
+# FreeBuild Plus — lessons (merged)
 
 Unified overlay of FreeBuildNoSnapSupport + FreeBuildNoCollision.
+
+Formerly named FreeBuild Unlimited.
 
 ## Single pak
 

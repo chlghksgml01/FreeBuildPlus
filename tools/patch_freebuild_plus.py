@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
-FreeBuild Unlimited — patch all /Game/Blueprints/JianZhu
+FreeBuild Plus ??patch all /Game/Blueprints/JianZhu
 Merges FreeBuild snap/support/float + collision JianCe off.
 Never touch extents; never ZhiNeng True; never NoTerrain kitchen-sink.
 """
@@ -8,7 +8,7 @@ from __future__ import print_function
 import unreal
 import traceback
 
-LOG_PATH = "C:/SMTemp/FreeBuildUnlimited/patch_unlimited_log.txt"
+LOG_PATH = "C:/SMTemp/FreeBuildPlus/patch_plus_log.txt"
 ROOT = "/Game/Blueprints/JianZhu"
 
 BOOL_FALSE = [
@@ -47,7 +47,7 @@ STATS = {"scanned": 0, "with_comp": 0, "patched": 0, "saved": 0, "failed": 0, "s
 def log(m):
     OUT.append(str(m))
     try:
-        unreal.log("[UNLIMITED] " + str(m))
+        unreal.log("[PLUS] " + str(m))
     except Exception:
         pass
 
@@ -120,7 +120,7 @@ def apply(comp):
 
 
 def main():
-    log("==== FreeBuild Unlimited patch (all JianZhu) ====")
+    log("==== FreeBuild Plus patch (all JianZhu) ====")
     ar = unreal.AssetRegistryHelpers.get_asset_registry()
     try:
         ar.search_all_assets(True)
@@ -221,3 +221,4 @@ except Exception:
     log("FATAL:\n%s" % traceback.format_exc())
     flush()
     raise
+

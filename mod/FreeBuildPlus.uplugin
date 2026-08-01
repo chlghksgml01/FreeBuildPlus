@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
-	"FriendlyName": "FreeBuild Unlimited",
+	"VersionName": "1.0.1",
+	"FriendlyName": "FreeBuild Plus",
 	"Description": "Snap/support/floating + collision/overlap free building in one overlay.",
 	"Category": "UGC",
 	"CreatedBy": "Aeng",

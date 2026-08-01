@@ -1,13 +1,13 @@
 {
-	"ModName": "FreeBuild Unlimited",
+	"ModName": "FreeBuild Plus",
 	"ModAuthor": "Aeng",
-	"ModUrl": "https://github.com/chlghksgml01/FreeBuildUnlimited",
-	"ModVersion": "1.0.0",
-	"ModDescription": "[h3]FreeBuild Unlimited[/h3]\r\nSnap/support/floating + collision/overlap in one overlay.\r\n\r\nRun INSTALL_OVERLAY.bat after subscribe. Use alone (unsubscribe old FreeBuild / NoCollision).",
-	"ModChangenotes": "v1.0.0: Initial Hidden release.",
+	"ModUrl": "https://github.com/chlghksgml01/FreeBuildPlus",
+	"ModVersion": "1.0.1",
+	"ModDescription": "[h3]FreeBuild Plus[/h3]\r\nSnap/support/floating + collision/overlap in one overlay.\r\n\r\nRun INSTALL_OVERLAY.bat after subscribe. Use alone (unsubscribe old FreeBuild / NoCollision).",
+	"ModChangenotes": "v1.0.1: Renamed to FreeBuild Plus.",
 	"ModeImagePath": "",
 	"ModID": "3775582493",
-	"PluginName": "FreeBuildUnlimited",
+	"PluginName": "FreeBuildPlus",
 	"PackageCRC": [],
 	"SupportLinux": "false"
 }
