@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "FreeBuild Unlimited",
+	"Description": "Snap/support/floating + collision/overlap free building in one overlay.",
+	"Category": "UGC",
+	"CreatedBy": "Aeng",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SimpleUGC",
+			"Enabled": true
+		}
+	]
+}

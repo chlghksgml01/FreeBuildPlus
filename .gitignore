@@ -1,0 +1,8 @@
+# FreeBuild Unlimited
+*.pak
+*.sig
+*.uasset
+*.uexp
+*.ubulk
+__pycache__/
+.DS_Store
