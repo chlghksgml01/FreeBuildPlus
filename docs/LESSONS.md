@@ -50,3 +50,9 @@ Reports: wall torch / hanging firebowl / wall oil lamps / specimen heads placed 
 Pak ~9.67 MB / 1716 entries (was ~9.82 MB / 1804). Already installed to local `Content\Paks` for testing.
 
 Tradeoff: those wall décor pieces lose FreeBuild Plus free-place/collision relax until a smarter per-flag restore.
+
+## 2026-08-07 — Overlay exclude Lighting/BiaoBen
+- Rebuilt `WS-WindowsNoEditor_1_P.pak` with UnrealPak `-compress -encrypt -encryptindex -sign`; response entries=1716; pak=9694953 bytes.
+- Do not pack top-level `Lighting` / `BiaoBen` (fixes wall torch/lamp/specimen rotation).
+- Workshop content upload via ISteamUGC `SetItemContent` returned `eResult=2` during PreparingContent (even for previously published payload). Meta-only title/visibility/changenote submit succeeded. steamcmd needs interactive password.
+- Never overwrite base `WS-WindowsNoEditor.pak`.
